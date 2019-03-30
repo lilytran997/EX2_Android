@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#07C510</color>
+    <color name="colorPrimaryDark">#0E2FEC</color>
+    <color name="colorAccent">#05B711</color>
+    <color name="colorline">#EE45E5</color>
+    <color name="colorlog">#FCFCFC</color>
+    <color name="colorPrimaryLog">#0E2FEC</color>
+    <color name="circle">#80FFFFFF</color>
+    <color name="avt">#EE45E5</color>
+    <color name="hyperline">#A31327</color>
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">androidbeginer</string>
+    <string name="name">Welcome to Android!!</string>
+    <string name="todo">TODO</string>
+    <string name="note">Sign in to continue</string>
+    <string name="user">USERNAME</string>
+    <string name="hint_user">Enter your Username</string>
+    <string name="pass">PASSWORD</string>
+    <string name="hint_pass">Enter your Password</string>
+    <string name="btn_signin">SIGN IN</string>
+    <string name="sign_up">Sign up for an Account?</string>
+    <string name="login">Login</string>
+    <string name="note_login">and you can discover best news around the world</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password (optional)</string>
+    <string name="rem">Remember me</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="team">Our Team</string>
+    <string name="miss">Mission</string>
+    <string name="addr">Address</string>
+    <string name="user1">Ly Tran</string>
+    <string name="user2">Kieu Dang</string>
+    <string name="user3">An Thai</string>
+    <string name="user4">Long Pham</string>
+    <string name="user5">Len Luu</string>
+    <string name="ms1">1520106</string>
+    <string name="ms2">1520089</string>
+    <string name="ms3">1520004</string>
+    <string name="ms4">1520102</string>
+    <string name="ms5">1420067</string>
+    <string name="notepad">Group 3, nhom bai tap va do an mon hoc Android!!!</string>
+    <string name="diachi">Dai hoc Khoa hoc Tu nhien, 227, Nguyen Van Cu, Phuong 4, Quan 5, Tp HCM</string>
+</resources>

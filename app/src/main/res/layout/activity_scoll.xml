@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".ScollActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+
+            <TextView
+                android:id="@+id/team"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/team"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="2dp"
+                android:background="@color/hyperline"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center_horizontal"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="40dp">
+
+                <RelativeLayout
+                    android:id="@+id/name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circlebg"
+                    android:padding="3dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp">
+
+                    <ImageView
+                        android:id="@+id/ava1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/circle_background"
+                        android:contentDescription="@string/todo"
+                        android:padding="3dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ava1" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name1"
+                    android:id="@+id/ly"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="9dp">
+
+                    <TextView
+                        android:id="@+id/user1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/user1"
+                        android:textAlignment="center"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ms1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:text="@string/ms1"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="140dp">
+
+                <RelativeLayout
+                    android:id="@+id/name2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circlebg"
+                    android:padding="3dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp">
+
+                    <ImageView
+                        android:id="@+id/ava2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/circle_background"
+                        android:contentDescription="@string/todo"
+                        android:padding="3dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ava5" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name2"
+                    android:id="@+id/kieu"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="9dp">
+
+                    <TextView
+                        android:id="@+id/user2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/user2"
+                        android:textAlignment="center"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ms2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:text="@string/ms2"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="260dp">
+
+                <RelativeLayout
+                    android:id="@+id/name3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circlebg"
+                    android:padding="3dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp">
+
+                    <ImageView
+                        android:id="@+id/ava3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/circle_background"
+                        android:contentDescription="@string/todo"
+                        android:padding="3dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ava5" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name3"
+                    android:id="@+id/an"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="9dp">
+
+                    <TextView
+                        android:id="@+id/user3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/user3"
+                        android:textAlignment="center"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ms3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:text="@string/ms3"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="140dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="90dp">
+
+                <RelativeLayout
+                    android:id="@+id/name4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/circlebg"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/ava4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/circle_background"
+                        android:contentDescription="@string/todo"
+                        android:padding="3dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ava3" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name4"
+                    android:id="@+id/baolong"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginEnd="3dp">
+
+                    <TextView
+                        android:id="@+id/user4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/user4"
+                        android:textAlignment="center"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ms4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:text="@string/ms4"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="140dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="200dp">
+
+                <RelativeLayout
+                    android:id="@+id/name5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/circlebg"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/ava5"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/circle_background"
+                        android:contentDescription="@string/todo"
+                        android:padding="3dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ava3" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name5"
+                    android:id="@+id/len"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="12dp">
+
+                    <TextView
+                        android:id="@+id/user5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/user5"
+                        android:textAlignment="center"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ms5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:text="@string/ms5"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+
+            <TextView
+                android:id="@+id/miss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/miss"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="30dp"
+                android:layout_height="2dp"
+                android:background="@color/hyperline"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center_horizontal"/>
+
+
+            <TextView
+                android:id="@+id/notepad"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:gravity="center_horizontal"
+                android:text="@string/notepad" />
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+
+            <TextView
+                android:id="@+id/adr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/addr"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="30dp"
+                android:layout_height="2dp"
+                android:background="@color/hyperline"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center_horizontal"/>
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="323dp"
+                android:layout_marginTop="40dp"
+                android:contentDescription="@string/todo"
+                android:scaleType="fitStart"
+                android:src="@drawable/bando" />
+
+            <TextView
+                android:id="@+id/dc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="150dp"
+                android:layout_marginTop="250dp"
+                android:gravity="center_vertical"
+                android:text="@string/diachi"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>
